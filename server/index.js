@@ -17,14 +17,14 @@ import orderRouter from "./route/order.route.js";
 dotenv.config();
 
 const app = express();
-// app.use(
-//   cors({
-//     credentials: true,
-//     origin: process.env.FRONT_END_URL,
-//   })
-// );
+app.use(
+  cors({
+    credentials: true,
+    origin: process.env.FRONT_END_URL,
+  })
+);
 
-app.use(cors());
+// app.use(cors());
 
 app.use(express.json());
 app.use(cookieParser());

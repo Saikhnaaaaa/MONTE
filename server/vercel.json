@@ -3,7 +3,7 @@
   "name": "Monte Mebel",
   "builds": [
     {
-      "src": "./index.js",
+      "src": "*.js",
       "use": "@vercel/node"
     }
   ],

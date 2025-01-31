@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "name": "Monte Mebel",
+  "name": "Monte",
   "builds": [
     {
-      "src": "*.js",
+      "src": "./index.js",
       "use": "@vercel/node"
     }
   ],
